@@ -3,7 +3,7 @@ const products = [
         "id": 1,
         "name": "Maleta - Bolso",
         "price": 140000,
-        "image": "./src/img/img-products/BOLSO-MALETA-0.1.jpeg",
+        "image": "../src/img/img-products/BOLSO-MALETA-0.1.jpeg",
         "category": "Maleta - Bolso",
         "quantity": 5,
         "description": "Maleta convertible en bolso creada con tela residual, bolsillos creados a través de la unión de retazos (Proceso Sostenible). 1 Bolsillo delantero , 2 Bolsillos laterales, Tapa posterior con bolsillos para guardar las correas de colgar, 1 correa graduable removible, 1 bolsillo interno.",
