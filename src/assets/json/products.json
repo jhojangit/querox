@@ -6,7 +6,8 @@
         "image": "/img-products/BOLSO-MALETA-0.1.jpeg",
         "category": "Maleta - Bolso",
         "quantity": 5,
-        "description": "Maleta convertible en bolso creada con tela residual, bolsillos creados a través de la unión de retazos (Proceso Sostenible). 1 Bolsillo delantero , 2 Bolsillos laterales, Tapa posterior con bolsillos para guardar las correas de colgar, 1 correa graduable removible, 1 bolsillo interno.",
+        "description": "Maleta convertible en bolso creada con tela residual, bolsillos creados a través de la unión de retazos (Proceso Sostenible)",
+        "pockets": ["1 Bolsillo delantero", "2 Bolsillos laterales", "Tapa posterior con bolsillos para guardar las correas de colgar", "1 correa graduable removible", "1 bolsillo interno"],
         "measures": "Alto 44 cm, Ancho 25 cm, Base 25 cm"
     },
     {
@@ -16,7 +17,8 @@
         "image": "/img-products/maleta2.jpeg",
         "category": "Maleta - Bolso",
         "quantity": 5,
-        "description": "Maleta convertible en bolso creada con tela residual (Proceso Sostenible). 1 Bolsillo delantero , 2 Bolsillos laterales, Tapa posterior con bolsillos para guardar las correas de colgar, 1 correa graduable removible, 1 bolsillo interno.",
+        "description": "Maleta convertible en bolso creada con tela residual (Proceso Sostenible)",
+        "pockets": ["1 Bolsillo delantero", "2 Bolsillos laterales", "Tapa posterior con bolsillos para guardar las correas de colgar", "1 correa graduable removible", "1 bolsillo interno"],
         "measures": "Alto 44 cm, Ancho 25 cm, Base 25 cm"
     },
     {
@@ -26,7 +28,9 @@
         "image": "/img-products/MANICARTERA1.0.jpeg",
         "category": "Pechera",
         "quantity": 5,
-        "description": "Pechera creada a través de la unión de retazos (Proceso sostenible). 2 bolsillos externos, división 2 bolsillos principales con cremallera, 1 tira para colgar graduable.",
+        "description": "Pechera creada a través de la unión de retazos (Proceso sostenible)",
+        "pockets": ["2 bolsillos externos", "división 2 bolsillos principales con cremallera", "1 tira para colgar graduable"],
+
         "measures": "Alto 19 cm, Ancho 16 cm, Base 9 cm"
     },
     {
@@ -36,7 +40,8 @@
         "image": "/img-products/MANICARTERA1.0.jpeg",
         "category": "Portacables",
         "quantity": 5,
-        "description": "Portacables creado con tela residual, bolsillo creado a través de la unión de retazos (Proceso Sostenible). 1 Bolsillo externo con cremallera, compartimientos varios internos.",
+        "description": "Portacables creado con tela residual, bolsillo creado a través de la unión de retazos (Proceso Sostenible)",
+        "pockets": ["1 Bolsillo externo con cremallera", "compartimientos varios internos"],
         "measures": "Alto 19cm, Ancho 22 cm, Base 3.5 cm"
     },
     {
@@ -46,7 +51,8 @@
         "image": "/img-products/MANICARTERA1.0.jpeg",
         "category": "Maleta Viajera",
         "quantity": 5,
-        "description": "Maleta viajera creada con tela residual (Proceso sostenible). 2 bolsillos laterales, 1 correa para ajustar a la cintura, cierre de cordón con tapa de broche, 1 bolsillo pequeño interno, 1 bolsillo interno para celular, espacio divisor para computador.",
+        "description": "Maleta viajera creada con tela residual (Proceso sostenible)",
+        "pockets": ["2 bolsillos laterales", "1 correa para ajustar a la cintura", "cierre de cordón con tapa de broche", "1 bolsillo pequeño interno", "1 bolsillo interno para celular", "espacio divisor para computador." ],
         "measures": "Alto 44 cm, Ancho 29 cm, Base 19 cm"
     },
     {
@@ -56,7 +62,8 @@
         "image": "/img-products/MANICARTERA1.0.jpeg",
         "category": "Maleta Viajera",
         "quantity": 5,
-        "description": "Maleta viajera creada con tela residual (Proceso sostenible). 2 bolsillos laterales, 1 correa para ajustar a la cintura, cierre de cordón con tapa de broche, 1 bolsillo pequeño interno, 1 bolsillo interno para celular, espacio divisor para computador.",
+        "description": "Maleta viajera creada con tela residual (Proceso sostenible)",
+        "pockets": ["2 bolsillos laterales", "1 correa para ajustar a la cintura", "cierre de cordón con tapa de broche", "1 bolsillo pequeño interno", "1 bolsillo interno para celular", "espacio divisor para computador." ],
         "measures": "Alto 44 cm, Ancho 29 cm, Base 19 cm"
     },
     {
@@ -66,7 +73,8 @@
         "image": "/img-products/MANICARTERA1.0.jpeg",
         "category": "Manicartera - Organizador",
         "quantity": 5,
-        "description": "Manicartera creada con tela residual (Proceso sostenible). 1 bolsillo frontal con cremallera, 1 bolsillo posterior, bolsillo principal con cremallera, 1 manija agarradera.",
+        "description": "Manicartera creada con tela residual (Proceso sostenible). , , , ",
+        "pockets": ["1 bolsillo frontal con cremallera", "1 bolsillo posterior", "1 manija agarradera"],
         "measures": "Alto 13 cm, Ancho 22 cm, Base 7 cm"
     },
     {
@@ -76,7 +84,8 @@
         "image": "/img-products/MANICARTERA1.0.jpeg",
         "category": "Manicartera - Organizador",
         "quantity": 5,
-        "description": "Manicartera creada con tela residual (Proceso sostenible). 1 bolsillo frontal con cremallera, 1 bolsillo posterior, bolsillo principal con cremallera, 1 manija agarradera.",
+        "description": "Manicartera creada con tela residual (Proceso sostenible)",
+        "pockets": ["1 bolsillo frontal con cremallera", "1 bolsillo posterior", "1 manija agarradera", "bolsillo principal con cremallera", "1 manija agarradera"],
         "measures": "Alto 13 cm, Ancho 22 cm, Base 7 cm"
     },
     {
@@ -86,7 +95,8 @@
         "image": "/img-products/MANICARTERA1.0.jpeg",
         "category": "Bolso Deportivo",
         "quantity": 5,
-        "description": "Bolso deportivo creado con tela residual (Proceso Sostenible). 1 bolsillo frontal, 1 bolsillo zapatero, 1 bolsillo lateral, 1 espacio interno para termo o botella, 1 bolsillo interno de maya, espacio principal con 2 tiras para colgar y 1 tira graduable.",
+        "description": "Bolso deportivo creado con tela residual (Proceso Sostenible) , , , , .",
+        "pockets": ["1 bolsillo zapatero", "1 bolsillo lateral", "1 espacio interno para termo o botella", "1 bolsillo interno de maya", "espacio principal con 2 tiras para colgar y 1 tira graduable"],
         "measures": "Alto 23cm, Ancho 38 cm, Base 20 cm"
     },
     {
@@ -96,7 +106,8 @@
         "image": "/img-products/MANICARTERA1.0.jpeg",
         "category": "Bolso Deportivo",
         "quantity": 5,
-        "description": "Bolso deportivo creado con tela residual (Proceso Sostenible). 1 bolsillo frontal, 1 bolsillo zapatero, 1 bolsillo lateral, 1 espacio interno para termo o botella, 1 bolsillo interno de maya, espacio principal con 2 tiras para colgar y 1 tira graduable.",
+        "description": "Bolso deportivo creado con tela residual (Proceso Sostenible).",
+        "pockets": ["1 bolsillo frontal", "1 bolsillo zapatero", "1 bolsillo lateral", "1 espacio interno para termo o botella", "1 bolsillo interno de maya", "espacio principal con 2 tiras para colgar y 1 tira graduable"],
         "measures": "Alto 23cm, Ancho 38 cm, Base 20 cm"
     },
     {
