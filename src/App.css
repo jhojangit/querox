@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Gujarati:wght@100;300;400;700&display=swap');
+
+
 :root{
     --brown-color:rgb(100, 61, 15);
     --grey-color:rgb(219, 219, 219);
+    --white-transparent: rgba(255, 255, 255, 0.952);
 }
 
-
+body{
+    font-family: 'Anek Gujarati', sans-serif;
+}
 
 
 
@@ -30,6 +36,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 
@@ -37,8 +44,15 @@
     background-color: var(--grey-color);
     border-radius: 1rem;
     width: 100%;
+    transform-origin: 65% 75%;
+    transition: transform 1s, filter .5s ease-out;
+    cursor: pointer;
 }
 
+
+.product-element-container-img:hover{
+    transform: scale(1.05);
+}
 
 .product-element-img{
     width: 100%;
@@ -48,7 +62,6 @@
 
 
 .product-element-main{
-    background-color: rgb(255, 255, 255);
     padding: 1rem;
     display: flex;
     flex-direction: column;
@@ -69,4 +82,20 @@
     font-weight: 300;
     font-size: medium;
     font-style: oblique;
+}
+
+.product-container-description{
+    height: 80%;
+    position: absolute;
+    display: none;
+    background-color: var(--white-transparent);
+    font-style: oblique;
+    font-weight: 400;
+    padding: 3rem 1rem;
+}
+
+
+.product-description-show{
+    display: block;
+    cursor: pointer;
 }
