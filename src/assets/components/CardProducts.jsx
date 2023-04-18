@@ -12,13 +12,12 @@ const CardProducts = () => {
         descriptions.current[id].classList.toggle('product-description-show')        
     }
 
-
     return (
         <section className="container-products">
             {
                 products.map((product, id) => (
                     <div key={product.id} className="product_element" >
-                        <div className="product-element-container-img">
+                        <div onClick={() => handleClick(id)} className="product-element-container-img">
                             <img className="product-element-img" src={product.image} alt={product.description} />
                         </div>
 
@@ -28,11 +27,12 @@ const CardProducts = () => {
                             <p className="product-measures">{product.measures}</p>
                         </div>
 
-                        <div className="product-container-description" ref={element => descriptions.current[id] = element}>
+                        <div onClick={() => handleClick(id)} className="product-container-description" ref={element => descriptions.current[id] = element}>
                             <p>{product.description}</p>
+                            <br />
+                            <br />
                         </div>
 
-                        <button onClick={() => handleClick(id)}>CLICK</button>
                     </div>
                 ))
             }

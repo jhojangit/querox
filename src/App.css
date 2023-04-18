@@ -49,6 +49,10 @@ body{
     cursor: pointer;
 }
 
+.product-element-container-img::after{
+    content: "Ver detalles";
+}
+
 
 .product-element-container-img:hover{
     transform: scale(1.05);
@@ -99,4 +103,8 @@ body{
 .product-description-show{
     display: block;
     cursor: pointer;
+}
+
+.product-container-description::after{
+    content: "⬅️Volver a imágen";
 }
