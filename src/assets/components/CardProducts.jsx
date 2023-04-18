@@ -5,11 +5,11 @@ import products from "../json/products";
 const CardProducts = () => {
 
     
+    const descriptions = useRef([])
+    
 
-    const handleClick = (id) =>{
-        let ass = document.querySelector('.product-container-description')
-        
-            ass.classList.add('product-description-show')
+    const handleClick = (id) =>{        
+        descriptions.current[id].classList.toggle('product-description-show')        
     }
 
 
@@ -17,7 +17,7 @@ const CardProducts = () => {
         <section className="container-products">
             {
                 products.map((product, id) => (
-                    <div className="product_element" key={product.id}>
+                    <div key={product.id} className="product_element" >
                         <div className="product-element-container-img">
                             <img className="product-element-img" src={product.image} alt={product.description} />
                         </div>
@@ -28,7 +28,7 @@ const CardProducts = () => {
                             <p className="product-measures">{product.measures}</p>
                         </div>
 
-                        <div className="product-container-description">
+                        <div className="product-container-description" ref={element => descriptions.current[id] = element}>
                             <p>{product.description}</p>
                         </div>
 
