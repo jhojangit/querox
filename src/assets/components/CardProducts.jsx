@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import products from "../json/products";
+import products from "../json/products.json";
 
 
 const CardProducts = () => {
