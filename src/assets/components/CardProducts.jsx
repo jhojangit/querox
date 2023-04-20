@@ -12,6 +12,7 @@ const CardProducts = () => {
         <section className="container-products">
             {
                 products.map((product, id) => (
+
                     <div key={product.id} className="product_element">
                         <div onClick={() => handleClick(id)} className="product-element-container-img">
                             <img className="product-element-img" src={product.image} alt={product.description} />
@@ -24,15 +25,23 @@ const CardProducts = () => {
                         </div>
 
                         <div onClick={() => handleClick(id)} className="product-container-description" ref={element => descriptions.current[id] = element}>
-                            <p>{product.description}</p>
+                            
+                    
+                            <div className="product-list-container">
+                                <p className="product-description-name">{product.description}</p>
+                                    {
+                                        product.pockets.map((pocket, index) => (
+                                            <div key={index} className="porduct-description-list">
+                                                <ul >
+                                                    <li>{pocket}</li>
+                                                </ul>
+                                            </div>
+                                        ))
+                                    }
 
-                            {
-                                product.pockets && product.pockets.map((pocket, index) => (
-                                    <ul key={index}>
-                                        <li> - {pocket}</li>
-                                    </ul>
-                                ))
-                            }
+
+                            </div>
+
 
                             <br />
                         </div>
