@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import products from "../json/products.json";
-import mixitup from "mixitup";
+
 
 const CardProducts = () => {
 
