@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from "react";
-import products from "../json/products.json";
+import products from "../../json/products.json";
+import "./products.css"
 
 
 const CardProducts = () => {
@@ -9,12 +10,11 @@ const CardProducts = () => {
             selectors: {
                 target: ".product_element"
             },
-            animation: {
-                duration: 602,
-                nudge: false,
-                reverseOut: true,
-                effects:
-                    "fade translateX(20%) translateY(20%) translateZ(-100px) rotateX(90deg) rotateY(90deg) stagger(30ms)"
+            "animation": {
+                "duration": 250,
+                "nudge": true,
+                "reverseOut": false,
+                "effects": "fade translateZ(-100px)"
             }
         });
     }, []);
@@ -26,7 +26,6 @@ const CardProducts = () => {
     const descriptions = useRef([]);
 
     const handleClick = (id) => {
-        console.log(id);
         descriptions.current[id].classList.toggle("product-description-show");
     };
 
@@ -35,6 +34,7 @@ const CardProducts = () => {
 
     return (
         <section className="container-products">
+            
             {products.map((product, id) => (
                 <div key={product.id} className={`mix ${product.category} product_element`}>
                     <div onClick={() => handleClick(id)} className="product-element-container-img">
@@ -50,17 +50,18 @@ const CardProducts = () => {
                     </div>
 
                     <div onClick={() => handleClick(id)} className="product-container-description" ref={(element) => (descriptions.current[id] = element)}>
+                        <p className="product-description-name">{product.description}</p>
                         <div className="product-list-container">
-                            <p className="product-description-name">{product.description}</p>
                             {product.pockets.map((pocket, index) => (
                                 <div key={index} className="porduct-description-list">
                                     <ul>
                                         <li>{pocket}</li>
                                     </ul>
+                                    
                                 </div>
                             ))}
                         </div>
-                        <br />
+                        <p>⬅️ Volver a la imágen</p>
                     </div>
                 </div>
             ))}

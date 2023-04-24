@@ -1,0 +1,35 @@
+
+.btn__open{
+    position: fixed;
+    width: 100px;
+    z-index: 5;
+    left: -20px;
+    text-align: end;
+    font-size: small;
+}
+
+.products-filter{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    height: 100vh;
+    align-items: center;
+    z-index: 20;
+    background-color: rgb(33, 45, 56);
+    padding:1rem;
+    left: 0;
+    top:0;
+    gap: .1rem;
+    margin-left: 0px;
+    transition: margin .5s;
+}
+
+.close__menu{
+    margin-left: -500px;
+}
+
+button{
+    width: 140px;
+    margin-top: 0px;
+}
+

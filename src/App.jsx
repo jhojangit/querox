@@ -1,7 +1,8 @@
 import "./App.css";
-import CardProducts from "./assets/components/CardProducts";
+import CardProducts from "./assets/components/products/CardProducts";
 import React, { useEffect } from "react";
-import FilterProducts from "./assets/components/FilterProducts";
+import FilterProducts from "./assets/components/filter/FilterProducts";
+import Navbar from "./assets/components/navbar/navbar";
 
 function App() {
 
@@ -10,11 +11,16 @@ function App() {
 
   return <div className="App">
 
-  <FilterProducts/>
+    <header>
     
+      <Navbar />
+    </header>
 
+    <main>
+      <FilterProducts />
+      <CardProducts />
+    </main>
 
-    <CardProducts />
 
   </div>;
 }
