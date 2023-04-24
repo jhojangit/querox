@@ -50,7 +50,6 @@
 .product-element-img{
     width: 100%;
     border-radius: 1rem;
-    
 }
 
 
@@ -75,7 +74,7 @@
 }
 
 .product-measures{
-    font-weight: 300;
+    font-weight: 400;
     font-size: medium;
     font-style: oblique;
     
@@ -105,9 +104,15 @@
     transition: opacity .5s;
 }
 
-/* .product-description-show::after{
-    content: '⬅️ Volver a la imágen';
-} */
+
+
+.bxs-left-arrow-square{
+    top:1 rem;
+    display: flex;
+    position: absolute;
+    left: 60px;
+
+}
 
 .product-description-name{
     font-weight: bold;

@@ -61,7 +61,7 @@ const CardProducts = () => {
                                 </div>
                             ))}
                         </div>
-                        <p>⬅️ Volver a la imágen</p>
+                        <p><i class='bx bxs-left-arrow-square bx-sm'></i> Volver a la imágen</p>
                     </div>
                 </div>
             ))}
