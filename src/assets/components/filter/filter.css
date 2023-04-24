@@ -1,3 +1,7 @@
+:root{
+    --brown-color: rgb(201, 169, 130);
+    --hover-brown: rgb(238, 208, 171) ;
+}
 
 .btn__open{
     position: fixed;
@@ -6,6 +10,12 @@
     left: -20px;
     text-align: end;
     font-size: small;
+    background-color: var(--brown-color);
+    color: rgb(249, 252, 255);
+}
+
+.btn__open:hover{
+    background-color: var(--hover-brown);
 }
 
 .products-filter{
@@ -15,7 +25,7 @@
     height: 100vh;
     align-items: center;
     z-index: 20;
-    background-color: rgb(33, 45, 56);
+    background-color: var(--brown-color);
     padding:1rem;
     left: 0;
     top:0;
@@ -31,5 +41,28 @@
 button{
     width: 140px;
     margin-top: 0px;
+    background-color: transparent;
 }
 
+.btnAll{
+    background-color: aliceblue;
+    font-weight: 500;
+}
+
+.btnAll:hover{
+    background-color: var(--hover-brown);
+}
+
+.bxs-chevrons-left{
+    background-color: aliceblue;
+    width: 140px;
+    padding: .7rem;
+    text-align: center;
+    border-radius: 1rem;
+    margin-bottom: .5rem;
+    cursor: pointer;
+}
+
+.bxs-chevrons-left:hover{
+    background-color: var(--hover-brown);
+}

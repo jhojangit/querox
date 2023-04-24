@@ -20,29 +20,29 @@ const closeOpen = () =>{
             <div className={`products-filter ${stateBtn ? "close__menu": ""}`} >
                     { /*<button className="filter_all" data-filter="all">Todo</button>*/}
                         
-                        <button onClick={closeOpen}><i class='bx bxs-chevrons-left'></i></button>
+                        <i onClick={closeOpen} class='bx bxs-chevrons-left btnAll '></i>
 
-                        <button className="filter_Maleta-Bolso" data-filter=".Maleta-Bolso">Maleta - Bolso</button>
+                        <button className="filter_Maleta-Bolso btnAll" data-filter=".Maleta-Bolso">Maleta - Bolso</button>
 
-                        <button className="filter_Pechera" data-filter=".Pechera">Pechera</button>
+                        <button className="filter_Pechera btnAll" data-filter=".Pechera">Pechera</button>
 
-                        <button className="filter_Portacables" data-filter=".Portacables">Portacables</button>
+                        <button className="filter_Portacables btnAll" data-filter=".Portacables">Portacables</button>
 
-                        <button className="filter_Maleta-Viajera" data-filter=".Maleta-Viajera">Maleta Viajera</button>
+                        <button className="filter_Maleta-Viajera btnAll" data-filter=".Maleta-Viajera">Maleta Viajera</button>
 
-                        <button className="filter_Manicartera-Organizador" data-filter=".Manicartera-Organizador">Manicartera</button>
+                        <button className="filter_Manicartera-Organizador btnAll" data-filter=".Manicartera-Organizador">Manicartera</button>
 
-                        <button className="filter_Bolso-Deportivo" data-filter=".Bolso-Deportivo">Bolso Deportivo</button>
+                        <button className="filter_Bolso-Deportivo btnAll" data-filter=".Bolso-Deportivo">Bolso Deportivo</button>
 
-                        <button className="filter_Organizador-viajero" data-filter=".Organizador-viajero">Organizador viajero</button>
+                        <button className="filter_Organizador-viajero btnAll" data-filter=".Organizador-viajero">Organizador viajero</button>
 
-                        <button className="filter_Tula" data-filter=".Tula">Tula</button>
+                        <button className="filter_Tula btnAll" data-filter=".Tula">Tula</button>
 
-                        <button className="filter_Maleta" data-filter=".Maleta">Maleta</button>
+                        <button className="filter_Maleta btnAll" data-filter=".Maleta">Maleta</button>
 
-                        <button className="filter_Canguro-Riñonera" data-filter=".Canguro-Riñonera">Canguro - Riñonera</button>
+                        <button className="filter_Canguro-Riñonera btnAll" data-filter=".Canguro-Riñonera">Canguro - Riñonera</button>
 
-                        <button className="filter_Carriel" data-filter=".Carriel">Carriel</button>
+                        <button className="filter_Carriel btnAll" data-filter=".Carriel">Carriel</button>
                     </div>
 
         </div>
