@@ -21,3 +21,13 @@ main{
 header{
     padding: .3rem;
 }
+
+.whats{
+    position: fixed;
+    bottom:5px;
+    right: 15px;
+}
+
+.whats img{
+    width: 200px;
+}
