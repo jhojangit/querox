@@ -2,10 +2,12 @@
 
 
 :root{
-    --brown-color:rgb(100, 61, 15);
+    --brown-color:rgb(201, 169, 130);
     --grey-color:rgb(219, 219, 219);
     --white-transparent: rgba(255, 255, 255, 0.966);
 }
+
+
 
 body{
     font-family: 'Anek Gujarati', sans-serif;
@@ -14,4 +16,8 @@ body{
 
 main{
     display: flex;
+}
+
+header{
+    padding: .3rem;
 }
