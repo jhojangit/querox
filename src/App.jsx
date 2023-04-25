@@ -19,7 +19,7 @@ function App() {
       <FilterProducts />
       <CardProducts />
       <div className="whats">
-        <a target="_blank" aria-label="Compra por WhatsApp" href="https://wa.me/573133028169?text= ¡Hola! Quisiera averigurar un producto"> <img alt="Chat on WhatsApp" src="public/logo/WhatsAppButtonGreenSmall.png" /> </a>
+        <a target="_blank" aria-label="Compra por WhatsApp" href="https://wa.me/573133028169?text= ¡Hola! Quisiera averigurar un producto"> <img alt="Chat on WhatsApp" src="public/img-products/logo/WhatsAppButtonGreenSmall.png" /> </a>
       </div>
     </main>s
 
