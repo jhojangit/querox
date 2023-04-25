@@ -1,0 +1,42 @@
+:root{
+    --brown-color: rgb(201, 169, 130);
+    --hover-brown: rgb(238, 208, 171) ;
+}
+
+.container__footer{
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.copy__container{
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.copy__text{
+    color: grey;
+}
+
+
+.whats{
+    position: fixed;
+    bottom:10px;
+    right: 25px;
+}
+
+.whats img{
+    width: 200px;
+}
+
+.bxl-whatsapp{
+    color: var(--brown-color);
+    color: green;
+    border-radius:  50%;
+}
+
+
