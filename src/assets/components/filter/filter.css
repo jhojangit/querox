@@ -26,6 +26,8 @@
     align-items: center;
     z-index: 20;
     background-color: var(--brown-color);
+    background-color: rgb(240, 238, 231);
+    border-right: 1px solid rgb(177, 189, 111);
     padding:1rem;
     left: 0;
     top:0;
@@ -45,7 +47,8 @@ button{
 }
 
 .btnAll{
-    background-color: aliceblue;
+    background-color: var(--brown-color);
+    color: rgb(255, 255, 255);
     font-weight: 500;
 }
 
@@ -54,7 +57,7 @@ button{
 }
 
 .bxs-chevrons-left{
-    background-color: aliceblue;
+    background-color: var(--brown-color);
     width: 140px;
     padding: .7rem;
     text-align: center;
