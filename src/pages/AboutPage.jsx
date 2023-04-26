@@ -2,9 +2,9 @@ import React from 'react'
 
 const AboutPage = () => {
   return (
-    <div>
-        <img src="img-products/construcion.png" alt="" />
-    </div>
+<div style={{textAlign:"center"}}>
+            <img  src="img-products/construcion.png" alt="" />
+        </div>
   )
 }
 

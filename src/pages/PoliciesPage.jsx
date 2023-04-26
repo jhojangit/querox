@@ -2,8 +2,8 @@ import React from 'react'
 
 const PoliciesPage = () => {
     return (
-        <div>
-            <img src="img-products/construcion.png" alt="" />
+        <div style={{textAlign:"center"}}>
+            <img  src="img-products/construcion.png" alt="" />
         </div>
       )
 }
