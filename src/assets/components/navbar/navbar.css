@@ -1,4 +1,4 @@
-nav{
+.navbar{
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -6,12 +6,12 @@ nav{
 }
 
 
-.logo__container{
+.navbar .logo__container{
     width: 100px;
 }
 
 
-nav ul{
+.navbar ul{ 
     display: flex;
     list-style: none;
     gap: 3rem;
@@ -21,13 +21,13 @@ nav ul{
 }
 
 
-nav ul li{
+.navbar ul {
     cursor: pointer;
     color: var(--brown-color);
     transition: color .5s;
 }
 
 
-nav ul li:hover{
-    color: rgb(104, 96, 87);
+.navbar ul li:hover{
+    color: rgb(216, 194, 169);
 }
