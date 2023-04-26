@@ -15,12 +15,12 @@ const closeOpen = () =>{
 
         <div className='filter__container'>
             
-            <button className='btn__open' onClick={closeOpen}><i class='bx bxs-chevrons-right '></i>categorías</button>
+            <button className='btn__open' onClick={closeOpen}><i className='bx bxs-chevrons-right '></i>categorías</button>
 
             <div className={`products-filter ${stateBtn ? "close__menu": ""}`} >
                     { /*<button className="filter_all" data-filter="all">Todo</button>*/}
                         
-                        <i onClick={closeOpen} class='bx bxs-chevrons-left btnAll bx-tada-hover '></i>
+                        <i onClick={closeOpen} className='bx bxs-chevrons-left btnAll bx-tada-hover '></i>
 
                         <button className="filter_Maleta-Bolso btnAll" data-filter=".Maleta-Bolso">Maleta - Bolso</button>
 
@@ -46,7 +46,7 @@ const closeOpen = () =>{
                     </div>
 
         </div>
-       
+
     )
 }
 

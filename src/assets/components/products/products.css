@@ -3,7 +3,6 @@
     
 }
 .container-products{
-    width: 100%;
     display: flex;
     text-align: center;
     flex-wrap: wrap;

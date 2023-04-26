@@ -22,3 +22,8 @@ header{
     padding: .3rem;
 }
 
+.main__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
