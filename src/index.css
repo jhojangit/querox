@@ -2,8 +2,8 @@
  * Forced light theme version
  */
 
- :root {
-    --brown-color:#c9a982;
+  :root {
+    --brown-color:rgb(201, 169, 130);
     --background-body: #fff;
     --background: #efefef;
     --background-alt: #f7f7f7;
