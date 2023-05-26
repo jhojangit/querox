@@ -1,0 +1,157 @@
+.modal__container{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    display: none;
+    top: 0;
+    z-index: 10;
+}
+
+.modal__show{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.modal__product{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+
+.modal__logo{
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+    width: 200px;
+}
+
+.bxs-x-square{
+    text-align: end;
+    padding-right: 1rem;
+    color: var(--orange-color);
+    position: absolute;
+    top: 1rem;
+    z-index: 10;
+    right: 0;
+    cursor: pointer;
+}
+
+.bxs-x-square:hover{
+    color: var(--orange-color-hover);
+}
+
+
+.modal__name-mobile{
+    font-size: 1.3rem;
+    text-align: center;
+    color: var(--orange-color);
+}
+
+.modal__name-desktop{
+    display: none;
+}
+
+.modal__material-mobile{
+    color: var(--orange-color);
+    margin-top: -0rem;
+}
+
+.modal__material-desktop{
+    color: var(--orange-color);
+    margin-top: -0rem;
+    display: none;
+}
+
+
+.modal__main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal__category{
+    margin-top: -1.8rem;
+    font-style: oblique;
+    color: var(--orange-color);
+    text-decoration: underline;
+}
+
+.modal__description{
+    text-align: center;
+    margin-top: -1rem;
+    padding: 0 1rem;
+}
+
+.modal__measures{
+    text-align: center;
+    font-weight: bold;
+    font-size: .8rem;
+    margin-top: -1rem;
+    padding: 1rem;
+}
+
+
+.modal__pockets-ul{
+    margin-top: -1rem;
+    min-width: 300px;
+    width: 90%;
+    color: aliceblue;
+    background-color: var(--orange-color);
+    border-radius: .5rem;
+    overflow: auto;
+    
+}
+
+.modal__pockets-li{
+    list-style: square;
+    padding-top: .5rem;
+    font-weight:500;
+    padding-right: .3rem;
+    padding-left: -1rem;
+}
+
+
+@media(min-width:500px){
+    .modal__main{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 6rem;
+    }
+
+    .modal__name-mobile{
+        display: none;
+    }
+    
+    .modal__name-desktop{
+        font-size: 1.5rem;
+        text-align: center;
+        color: var(--orange-color);
+        display: flex;
+    }
+
+    .modal__content{
+        width: 50%;
+    }
+
+    .modal__material-desktop{
+        margin-top: -1rem;
+        margin-bottom: 2rem;
+        display: block;
+    }
+}
+
+

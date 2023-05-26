@@ -1,18 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Anek+Gujarati:wght@100;300;400;700&display=swap');
 
 
-:root{
-    --brown-color:rgb(201, 169, 130);
-    --grey-color:rgb(219, 219, 219);
-    --white-transparent: rgba(255, 255, 255, 0.966);
-}
-
 
 
 body{
     font-family: 'Anek Gujarati', sans-serif;
 }
 
+img{
+    width: 100%;
+    display: block;
+}
 
 main{
     display: flex;

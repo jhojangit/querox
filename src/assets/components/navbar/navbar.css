@@ -22,18 +22,18 @@
     list-style: none;
     gap: 3rem;
     font-weight: bold;
-    color: var(--brown-color);
     transition: color .5s;
 }
 
 
 .navbar ul {
     cursor: pointer;
-    color: var(--brown-color);
+    color: var(--orange-color);
     transition: color .5s;
 }
 
 
 .navbar ul li:hover{
-    color: rgb(216, 194, 169);
+    color: var(--orange-color-hover);
+    
 }

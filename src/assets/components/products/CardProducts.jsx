@@ -1,14 +1,13 @@
-import React, { useEffect, useRef } from "react";
-import products from "../../json/products.json";
+import React, { useEffect, useRef, useState } from "react";
 import "./products.css"
 
 
-const CardProducts = () => {
+const CardProducts = ({ product, onProductClick }) => {
 
     useEffect(() => {
-        mixitup(".container-products", {
+        mixitup(".container__products", {
             selectors: {
-                target: ".product_element"
+                target: ".card__product"
             },
             "animation": {
                 "duration": 250,
@@ -22,50 +21,26 @@ const CardProducts = () => {
 
 
 
-
-    const descriptions = useRef([]);
-
-    const handleClick = (id) => {
-        descriptions.current[id].classList.toggle("product-description-show");
-    };
-
-
-
-
     return (
-        <section className="container-products">
-            
-            {products.map((product, id) => (
-                <div key={product.id} className={`mix ${product.category} product_element`}>
-                    <div onClick={() => handleClick(id)} className="product-element-container-img">
-                        <img className="product-element-img" src={product.image} alt={product.description} />
-                    </div>
 
-                    <div className="product-element-main">
-                        <h3 className="product-name">{product.name}</h3>
-                        <p className="product-price">
-                            {product.price.toLocaleString("es-CO", { style: "currency", currency: "COP", minimumFractionDigits: 0 })}
-                        </p>
-                        <p className="product-measures">{product.measures}</p>
-                    </div>
 
-                    <div onClick={() => handleClick(id)} className="product-container-description" ref={(element) => (descriptions.current[id] = element)}>
-                        <p className="product-description-name">{product.description}</p>
-                        <div className="product-list-container">
-                            {product.pockets.map((pocket, index) => (
-                                <div key={index} className="porduct-description-list">
-                                    <ul>
-                                        <li>{pocket}</li>
-                                    </ul>
-                                    
-                                </div>
-                            ))}
-                        </div>
-                        <p><i className='bx bxs-left-arrow-square bx-sm'></i> Volver a la imágen</p>
-                    </div>
-                </div>
-            ))}
+        <section onClick={() => onProductClick(product)} className={`mix ${product.category} card__product`}>
+            <p className="card__product-materialOnImage">{product.material}</p>
+
+            <div className="card__product-container-img">
+                <img className="card__product-img card__product-img1" src={product?.images[0]} alt={product.description} />
+                <img className="card__product-img card__product-img2" src={product?.images[1]} alt={product.description} />
+            </div>
+
+            <div className="card__product-main">
+                <h3 className="card__product-name">{product.name}</h3>
+                <p className="card__product-price">
+                    {product.price.toLocaleString("es-CO", { style: "currency", currency: "COP", minimumFractionDigits: 0 })}
+                </p>
+            </div>
+
         </section>
+
     );
 };
 

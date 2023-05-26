@@ -3,7 +3,8 @@
  */
 
   :root {
-    --brown-color:rgb(201, 169, 130);
+    --orange-color:rgb(231, 133, 14);
+    --orange-color-hover:rgb(238, 147, 35);
     --background-body: #fff;
     --background: #efefef;
     --background-alt: #f7f7f7;
