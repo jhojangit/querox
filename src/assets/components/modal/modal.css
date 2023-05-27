@@ -126,11 +126,11 @@
 
 
 .modal__pockets-li{
-    list-style: square;
     padding-top: .5rem;
     font-weight:500;
     padding-right: .3rem;
-    padding-left: -1rem;
+    margin-left: -1rem;
+    list-style: none;
 }
 
 

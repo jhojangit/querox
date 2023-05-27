@@ -55,7 +55,7 @@ const Modal = ({ product, onProductExit }) => {
                         <ul>
                             {
                                 product?.pockets?.map(pocket => (
-                                    <li className='modal__pockets-li' key={pocket}>{pocket}</li>
+                                    <li className='modal__pockets-li' key={pocket}>- {pocket}</li>
                                 ))
                             }
                         </ul>
