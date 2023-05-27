@@ -5,7 +5,7 @@ import AboutPage from '../assets/components/about/AboutPage'
 import products from "../assets/json/products.json";
 import "../pages/productsPage.css"
 import "../assets/components/modal/modal.css"
-import Modal from '../assets/components/modal/Modal';
+import Modal from '../assets/components/modal/Modal'
 
 
 
@@ -26,8 +26,8 @@ const ProductsPage = () => {
     }
 
     const handleExitModal = () =>{
-        setProductModal("");
         setAddClass("")
+        setProductModal("");
     }
 
 
@@ -58,10 +58,14 @@ const ProductsPage = () => {
 
 
             <div className={`modal__container ${addClass}`}>
-                <Modal 
+                {
+                    productModal?
+                    <Modal 
                     product={productModal}
                     onProductExit={handleExitModal}
-                />
+                    />
+                    :<div></div>
+                }
             </div>
 
 

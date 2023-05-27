@@ -8,9 +8,6 @@ import logo from "../../../../public/img-products/LOGO1.png"
 
 const Modal = ({ product, onProductExit }) => {
 
-
-
-    console.log(product);
     
 
 
@@ -28,32 +25,31 @@ const Modal = ({ product, onProductExit }) => {
 
 
                 <section className='modal__slider'>
-                    {product ?      // cuando se recarga la página modal, comprueba que exista, y si no es así, sale del modal
                         <Slider images={product.images} />
-                        :
-                        <></>
-                    }
                 </section>
-                <h1 className='modal__name-mobile'>{product.name} ({product.material}) </h1>
+                <h1 className='modal__name-mobile'>{product.name}</h1>
 
 
                 <div className="modal__content">
 
                     <h1 className='modal__name-desktop'>{product.name}</h1>
-                    <p className='modal__material-desktop'>{product.material}</p>
 
-                    <div className='modal__category'>
-                        <p>{product.category}</p>
+                    <div className='modal__material'>
+                        <p>{product.material}</p>
                     </div>
 
                     <div className='modal__description'>
                         <p>{product.description}</p>
                     </div>
 
+                    <p className="modal__price">
+                        {product?.price.toLocaleString("es-co", { style: "currency", currency: "COP", minimumFractionDigits: 0 })}
+                    </p>
 
                     <div className="modal__measures">
                         <p>{product.measures}</p>
                     </div>
+
 
                     <div className="modal__pockets-ul">
                         <ul>
