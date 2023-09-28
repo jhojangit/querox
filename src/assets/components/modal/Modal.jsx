@@ -10,6 +10,7 @@ const Modal = ({ product, onProductExit }) => {
 
     
 
+    const nameProductURL = `https://wa.me/573223250286?text=Hola%20Me%20gustaría%20comprar%20este%20producto%20${product.name}$20=%20${product.price}`
 
     return (
         <div className='modal__product'>
@@ -36,6 +37,11 @@ const Modal = ({ product, onProductExit }) => {
 
                     <div className='modal__material'>
                         <p>{product.material}</p>
+                    </div>
+
+
+                    <div className="modal__whats_product">
+                        <a style={{cursor:"pointer"}} target="_blank" aria-label="Compra por WhatsApp" href={nameProductURL}>COMPRAR</a>
                     </div>
 
                     <div className='modal__description'>

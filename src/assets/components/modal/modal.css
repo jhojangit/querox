@@ -30,7 +30,7 @@
 
 .modal__logo{
     padding-top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
     width: 200px;
 }
 
@@ -47,6 +47,19 @@
 
 .bxs-x-square:hover{
     color: var(--orange-color-hover);
+}
+
+
+.modal__whats_product{
+    background-color: var(--orange-color);
+    border-radius: 1rem;
+    padding: .5rem;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.modal__whats_product:hover{
+    background-color: var(--orange-color-hover);
 }
 
 
