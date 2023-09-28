@@ -23,7 +23,6 @@ function App() {
 
     <Routes>
       <Route path="/" element={<ProductsPage/>}/>
-      <Route path="/venta" element={<PoliciesPage/>}/>
       <Route path="*" element={<NotFoundPage/>}/>
     </Routes>
 

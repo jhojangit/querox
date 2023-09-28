@@ -8,13 +8,6 @@ const navbar = () => {
       <div className="logo__container">
         <img className='navbar__img' src="../img-products/LOGO1.png" alt="" />
       </div>
-
-
-      <ul>
-        <li><Link to="/" >Productos</Link></li>
-        <li><Link className='navbar__politica' to="/venta">Política de venta</Link></li>
-      </ul>
-
     </nav>
   )
 }

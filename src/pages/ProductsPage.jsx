@@ -64,7 +64,7 @@ const ProductsPage = () => {
                     product={productModal}
                     onProductExit={handleExitModal}
                     />
-                    :<div></div>
+                    :<></>
                 }
             </div>
 

@@ -1,9 +1,6 @@
-/**
- * Forced light theme version
- */
 
   :root {
-    --orange-color:rgb(231, 133, 14);
+    --orange-color:rgb(238, 182, 113);
     --orange-color-hover:rgb(238, 147, 35);
     --background-body: #fff;
     --background: #efefef;
