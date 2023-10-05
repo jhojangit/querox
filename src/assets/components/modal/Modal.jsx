@@ -11,7 +11,7 @@ const Modal = ({ product, onProductExit }) => {
 
 
 
-    const nameProductURL = `https://wa.me/573223250286?text=Hola%20Me%20gustaría%20comprar%20este%20producto%20${product.name}%20=%20${product.price}%20${product.imageUrl}`
+    const nameProductURL = `https://wa.me/573223250286?text=¡Hola!%20Me%20gustaría%20comprar%20este%20producto:%20${product.name}%20=%20$${product.price}%20${product.imageUrl}`
 
     return (
         <div className='modal__product'>
