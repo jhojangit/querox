@@ -10,8 +10,7 @@ import Modal from '../assets/components/modal/Modal'
 
 
 const ProductsPage = () => {
-    
-    
+
 
     const [productModal, setProductModal] = useState("");
     const [addClass, setAddClass] = useState("");
@@ -37,14 +36,11 @@ const ProductsPage = () => {
         <main className='main__container'>
             <AboutPage/>
             <FilterProducts />
-            
 
 
 
             <div className='container__products'>
-                
                 {
-                    
                     products.map(product => (
                         <CardProducts
                             key={product.id}
@@ -53,7 +49,6 @@ const ProductsPage = () => {
                         />
                     ))
                 }
-                
             </div>
 
 
